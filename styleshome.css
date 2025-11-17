@@ -121,3 +121,49 @@ header nav a:hover {
     object-fit: contain;
     z-index: 10;
 }
+
+/* ACCOUNT DATA SETTINGS FORM */
+
+form {
+    background: white;
+    width: 60%;
+    margin: 30px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+form td:first-child {
+    width: 30%;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="int"] {
+    width: 90%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input[type="submit"]:hover {
+    background-color: #444;
+}
